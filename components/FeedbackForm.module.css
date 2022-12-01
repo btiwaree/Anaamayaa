@@ -1,5 +1,5 @@
 .form {
-  margin: 40px 40px;
+  margin: 40px auto;
   min-width: 300px;
   width: 45%;
 }
@@ -21,6 +21,7 @@
   padding: 12px 20px;
   width: 100%;
 }
+
 .hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
@@ -29,4 +30,20 @@
   position: absolute;
   white-space: nowrap;
   width: 1px;
+}
+
+.select {
+  font-size: 16px;
+  padding: 12px;
+}
+
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }

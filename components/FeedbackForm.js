@@ -20,11 +20,23 @@ export default function FeedbackForm() {
         <label htmlFor="name">Name</label>
         <input id="name" className={styles['form-field']} type="text" name="name" />
 
-        <label htmlFor="email">Email</label>
-        <input id="email" className={styles['form-field']} type="email" name="email" required />
+        <label htmlFor="age">Age</label>
+        <input id="age" className={styles['form-field']} type="number" name="age" required />
 
-        <label htmlFor="feedback">What is your feedback?</label>
-        <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
+        <div className={styles.flexColumn}>
+          <label style={{ marginBottom: 12}} htmlFor="sex">Sex</label>
+          <select className={styles.select} id="sex" name="sex">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="others">Others</option>
+          </select>
+        </div>
+
+        <br />
+
+        <label htmlFor="phonenumber">Phone Number</label>
+        <input id="phonenumber" className={styles['form-field']} type="tel" name="phonenumber" placeholder='98--------' pattern="[0-9]{10}" required />
+
         <button className={styles.button} type="submit">Submit</button>
       </form>
   )

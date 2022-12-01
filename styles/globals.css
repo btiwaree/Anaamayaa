@@ -16,9 +16,16 @@ main {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  max-width: 60ch;
+  max-width: 70ch;
 }
 
 hr {
   width: 100%;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  text-align: center;
 }
