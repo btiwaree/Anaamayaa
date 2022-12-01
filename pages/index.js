@@ -1,4 +1,3 @@
-import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import FeedbackForm from '@components/FeedbackForm';
@@ -6,14 +5,8 @@ import FeedbackForm from '@components/FeedbackForm';
 export default function Home() {
   return (
     <div className="container">
-      <Head>
-        <title>Anamaya</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
         <Header title="Anaamayaa Ayurveda Multi-Speciality clinic" />
-        <hr />
         <div className="description">
           📍 भट्टी मोड, धरान रोड , बिराटनगर ६
           <div>

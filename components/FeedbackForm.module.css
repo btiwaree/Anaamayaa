@@ -12,8 +12,9 @@
 }
 
 .button {
-  background-color: teal;
-  border: 1px solid black;
+  background-color: #7d85c1;
+  border: 1px solid #868bad;
+  border-radius: 8px;
   color: white;
   width: 50%;
   font-size: inherit;

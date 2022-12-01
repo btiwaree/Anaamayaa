@@ -1,3 +1,9 @@
 .title {
+  border: 2px solid #b7a9a9;
+  border-top: 0;
+  border-radius: 24px;
+  border-left: 0;
+  border-right: 0;
+  padding-bottom: 24px;
   text-align: center;
 }

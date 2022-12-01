@@ -1,29 +1,14 @@
-import { useEffect, useState } from 'react';
 import styles from './FeedbackForm.module.css';
 
 export default function FeedbackForm() {
-  const [showSuccess, setShowSuccess] = useState(false);
-
-  const onSubmit = e => {
-    e.preventDefault();
-    e.stopPropagation();
-    setShowSuccess(true);
-  };
-
-  useEffect(() => {
-    let id = setTimeout(() => {
-      setShowSuccess(false);
-    }, 10000);
-    return () => clearTimeout(id);
-  }, [showSuccess]);
-
   return (
     <form
       className={styles.form}
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       name="feedback"
-      onSubmit={onSubmit}
+      method="POST"
+      action="/success"
     >
       <input type="hidden" name="form-name" value="feedback" />
       <p className={styles.hidden}>
