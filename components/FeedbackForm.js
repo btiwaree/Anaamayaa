@@ -50,12 +50,6 @@ export default function FeedbackForm() {
       <button className={styles.button} type="submit">
         Submit
       </button>
-
-      {showSuccess && (
-        <div className={styles.successToast}>
-          Thank you for sending details. We will contact you soon!
-        </div>
-      )}
     </form>
   );
 }
