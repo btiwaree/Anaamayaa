@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from 'next/head';
+import Link from 'next/link';
 
-import Footer from '@components/Footer'
+import Footer from '@components/Footer';
 
 export default function Success() {
   return (
@@ -12,11 +12,17 @@ export default function Success() {
       </Head>
 
       <main>
-        <h1>Submission Received!</h1>
-        <p>Thank you for your feedback! Head back to the <Link href="/"><a>home page</a></Link>.</p>
+        <h1>Thank you for filling out the form.</h1>
+        <p>
+          Thank you for your feedback! Head back to the{' '}
+          <Link href="/">
+            <a>home page</a>
+          </Link>
+          .
+        </p>
       </main>
 
       <Footer />
     </div>
-  )
+  );
 }
