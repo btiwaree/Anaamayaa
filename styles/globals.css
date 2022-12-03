@@ -1,5 +1,6 @@
 html,
 body {
+  height: 100vh;
   padding: 0;
   margin: 0;
   font-family: 'Playfair Display', serif;
@@ -9,11 +10,12 @@ body {
   box-sizing: border-box;
 }
 
+
 main {
-  padding: 2rem 20px;
+  height: 95vh;
+  padding: 0 2rem 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   margin: 0 auto;
   max-width: 70ch;
 }
@@ -22,9 +24,14 @@ hr {
   width: 100%;
 }
 
-.description {
+.content {
   display: flex;
   flex-direction: column;
   font-size: 20px;
   text-align: center;
+}
+
+/* Headings */
+h1 {
+  font-size: 32px;
 }
