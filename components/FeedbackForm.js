@@ -36,7 +36,7 @@ export default function FeedbackForm() {
 
       <br />
 
-      <label htmlFor="phonenumber">Phone Number</label>
+      <label htmlFor="phonenumber">Contact Number</label>
       <input
         id="phonenumber"
         className={styles['form-field']}
