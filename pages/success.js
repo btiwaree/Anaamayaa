@@ -5,7 +5,7 @@ import Footer from '@components/Footer';
 
 export default function Success() {
   return (
-    <div className="container">
+    <div>
       <Head>
         <title>Next.js Toolbox Template!</title>
         <link rel="icon" href="/favicon.ico" />

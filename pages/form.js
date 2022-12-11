@@ -5,7 +5,7 @@ import { ClinicImage } from '@components/ClinicImage';
 
 export default function Form() {
   return (
-    <div className="container">
+    <div>
       <Header title="अनामया आयुर्वेद मल्टि-स्पेश्यालिटि क्लिनिक" />
       <ClinicImage />
 

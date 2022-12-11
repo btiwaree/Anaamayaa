@@ -11,7 +11,7 @@ export const doctors = [
   {
     name: 'डा. मिसान्त ढकाल',
     title: 'वरिष्ठ पञ्चकर्म विशेषज्ञ',
-    degree: 'BAMS-300, PK-04',
+    degree: 'NAMC-300, PK-04',
     profileImage: (
       <Image
         alt="Dr Misant Dhakal"
@@ -26,7 +26,7 @@ export const doctors = [
   {
     name: 'डा. प्रकाश लिम्बु',
     title: 'वरिष्ठ आयुर्वेद चिकित्सक',
-    degree: 'BAMS-361',
+    degree: 'NAMC-361',
     profileImage: (
       <Image
         alt="Dr Prakash Limbu"
