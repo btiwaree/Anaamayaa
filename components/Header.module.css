@@ -1,6 +1,7 @@
 .title {
-  text-align: center;
-  padding: 16px;
   background: #e2f3dc;
+  font-weight: 400;
   margin: 0;
+  padding: 16px 72px;
+  text-align: center;
 }
