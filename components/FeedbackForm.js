@@ -21,7 +21,7 @@ export default function FeedbackForm() {
       <input id="name" className={styles['form-field']} type="text" name="name" required />
 
       <label htmlFor="age">Age</label>
-      <input id="age" className={styles['form-field']} type="number" name="age" required />
+      <input id="age" className={styles['form-field']} type="number" min={18} name="age" required />
 
       <div className={styles.flexColumn}>
         <label style={{ marginBottom: 12 }} htmlFor="sex">
@@ -42,7 +42,6 @@ export default function FeedbackForm() {
         className={styles['form-field']}
         type="tel"
         name="phonenumber"
-        placeholder="98--------"
         pattern="[0-9]{10}"
         required
       />
